@@ -33,7 +33,7 @@
 								label: 'Place',
 								'values': [
 									{text: 'Top', value: 'top'},
-									{text: 'Buttom', value: 'buttom'},
+									{text: 'Bottom', value: 'bottom'},
 									{text: 'Right', value: 'right'},
 									{text: 'Left', value: 'left'}
 								]
@@ -67,7 +67,7 @@
 								label: 'Place',
 								'values': [
 									{text: 'Top', value: 'top'},
-									{text: 'Buttom', value: 'buttom'},
+									{text: 'Bottom', value: 'bottom'},
 									{text: 'Right', value: 'right'},
 									{text: 'Left', value: 'left'}
 								]
