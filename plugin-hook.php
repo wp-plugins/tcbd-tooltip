@@ -16,7 +16,7 @@ define('TCBD_PLUGIN_URL', WP_PLUGIN_URL . '/' . plugin_basename( dirname(__FILE_
 
 
 // Hooks TCBD functions into the correct filters
-function my_add_mce_button() {
+function tcbd_add_mce_button() {
 	// check user permissions
 	if ( !current_user_can( 'edit_posts' ) && !current_user_can( 'edit_pages' ) ) {
 		return;
@@ -27,7 +27,7 @@ function my_add_mce_button() {
 		add_filter( 'mce_buttons', 'tcmd_register_mce_button' );
 	}
 }
-add_action('admin_head', 'my_add_mce_button');
+add_action('admin_head', 'tcbd_add_mce_button');
 
 // Declare script for new button
 function tcbd_add_tinymce_plugin( $plugin_array ) {
