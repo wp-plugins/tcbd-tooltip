@@ -15,6 +15,7 @@ This plugin will enable tooltip in your Wordpress theme.
 
 * Easy to use.
 * Tooltip Button in Editor.
+* TinyMCE Button added for generating Shortcode.
 * Customizable. 
 
 
