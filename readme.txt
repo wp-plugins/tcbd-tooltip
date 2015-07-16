@@ -11,7 +11,8 @@ This plugin will enable tooltip in your Wordpress theme.
 
 == Description ==
 
-=Plugin Features=
+= Plugin Features =
+
 * Easy to use.
 * Tooltip Button in Editor.
 * Customizable. 
@@ -21,7 +22,8 @@ This plugin will enable tooltip in your Wordpress theme.
 
 1. Install as a regular WordPress plugin.
 
-=How to use?=
+= How to use? =
+
 1. Button: You find TCBD Tooltip button in Editor. Just Click what you want and fill information.Than just click OK.
 2. Custom use: Just use rel attribute in anchor or span. Example code is given below
 `<a href="" title="Our Facebook Page" rel="tooltip">Facebook</a>`  `<span rel="tooltip" title="Tooltip title will appear here.">Tooltip</span>`
